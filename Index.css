@@ -45,8 +45,25 @@ h2 {
     font-size: 30px;
 }
 
+#blink {
+    animation-duration: 1000ms;
+    animation-name: blink;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
 a {
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 20px; 
+}
+
+@keyframes blink {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
 }
