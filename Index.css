@@ -6,6 +6,18 @@ html, body {
     
 }
 
+.logo {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    width: 75px;
+    background-size: cover;
+    background-image: url("bg.png");
+    border-radius: 10px;
+    opacity: 0.3;
+}
+
 body {
     margin-top: 0px;
     margin-left: 0px;
