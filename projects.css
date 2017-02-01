@@ -1,0 +1,48 @@
+html, body {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.cover {
+  margin-top: 3vh;
+  width: 100vw;
+  height: 35vh;
+  background-color: lightgreen;
+  display: inline-block;
+}
+
+.cover:hover {
+  height: 45vh;
+}
+
+.box {
+  margin-top: 3vh;
+  width: 45vw;
+  height: 45vh;
+  display: inline-block;
+}
+
+.box:hover {
+  width: 50vw;
+  height: 60vh;
+}
+
+.left:hover + .right {
+  width: 40vw;
+}
+
+.left + .right:hover {
+  width: 20vw;
+}
+.left {
+  float: left;
+  margin-left: 2vw;
+  background-color: lightgrey;
+}
+
+.right {
+  float:right;
+  margin-right: 2vw;
+  background-color: lightblue;
+}

@@ -1,9 +1,9 @@
 html, body {
     height: 100%;
     width: 100%;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Indie Flower', 'Orbitron', sans-serif;
     color: white;
-    
+
 }
 
 .logo {
@@ -67,7 +67,12 @@ h2 {
 a {
     text-decoration: none;
     color: white;
-    font-size: 20px; 
+    font-size: 30px;
+}
+
+a:hover {
+    font-size: 40px;
+    text-decoration: underline;
 }
 
 @keyframes blink {
