@@ -10,31 +10,65 @@ html, body {
   height: 35vh;
   background-color: lightgreen;
   display: inline-block;
+  font-size: 40px;
+}
+
+#_rw {
+  font-family: "Orbitron";
+  opacity: 0.5;
+  color: white;
+  background-image: url("rw.png");
+  background-size: cover;
+  z-index: -1;
+}
+#_rw:hover {
+  opacity: 0.8;
+  font-weight: bold;
+}
+
+#_s {
+
+}
+
+#_sm {
+
+}
+
+#_d {
+
+}
+
+#_ftl {
+
 }
 
 .cover:hover {
-  height: 45vh;
+  font-size: 50px;
+}
+
+.cover h2 {
+  text-align: center;
 }
 
 .box {
+  border-radius: 3vw;
   margin-top: 3vh;
   width: 45vw;
   height: 45vh;
   display: inline-block;
+  font-size: 30px;
+  z-index: -1;
 }
 
 .box:hover {
-  width: 50vw;
-  height: 60vh;
+  font-size: 40px;
 }
 
-.left:hover + .right {
-  width: 40vw;
+.box h2 {
+  text-align: center;
+  margin-top: 15vh;
 }
 
-.left + .right:hover {
-  width: 20vw;
-}
 .left {
   float: left;
   margin-left: 2vw;
