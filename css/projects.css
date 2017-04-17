@@ -1,25 +1,50 @@
 html, body {
-  height: 100vh;
-  width: 100vw;
-  overflow-x: hidden;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    margin: 0;
 }
 
 body {
-  background-color: rgba(23, 98, 161, 0.3);
+  background-color: #FFFAFA;
+}
+
+#intro_content {
+    font-family: 'Ranga', cursive;
+    margin: 0;
+    min-height:100%;
+    padding: 0.5em 0;
+    width: 100%;
+    display:block;
+    background-color: #373737;
+    text-align: center;
+}
+
+#main_content {
+    font-size: 3vw;
+    text-align: center;
+    padding:1em 0;
+    line-height:2;
+    position:relative;
+    z-index:2;
+    display: block;
+    width: 100%;
+}
+#intro_content h2 {
+    font-size: 75px;
+    color: orange;;
 }
 
 h1 {
-  font-family: 'Bungee Shade', cursive;
-  font-weight: bolder;
-  font-size: 50px;
-  text-align: center;
-  line-height: 10%;
-  text-decoration: underline;
+    font-family: 'Yanone Kaffeesatz';
+    padding-top: 10%;
+    font-size: 100px;
+    color: white;
 }
 
 h4 {
-    font-family: 'Bungee Shade', cursive;
-    font-size: 25px;
+    color: orange;
+    font-size: 40px;
     text-align: center;
 }
 
@@ -62,23 +87,23 @@ h4:hover {
 }
 
 ._rw {
-  background-image: url("rw.png");
+  background-image: url("../images/rw.png");
 }
 
 ._s {
-  background-image: url("sq.png");
+  background-image: url("../images/sq.png");
 }
 
 ._sm {
-  background: url("sm.png") center center;
+  background: url("../images/sm.png") center center;
 }
 
 ._d {
-  background: url("d.jpg") center center;
+  background: url("../images/d.jpg") center center;
 }
 
 ._ftl {
-  background-image: url("ftl.jpg");
+  background-image: url("../images/ftl.jpg");
 }
 
 .cover:hover {

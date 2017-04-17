@@ -1,7 +1,7 @@
 html, body {
     height: 100%;
     width: 100%;
-    font-family: 'Indie Flower', 'Orbitron', sans-serif;
+    font-family: 'Yanone Kaffeesatz';
     color: white;
 
 }
@@ -13,7 +13,7 @@ html, body {
     height: 50px;
     width: 75px;
     background-size: cover;
-    background-image: url("bg.png");
+    background-image: url("images/bg.png");
     border-radius: 10px;
     opacity: 0.3;
 }
@@ -24,7 +24,7 @@ body {
     margin-bottom: 0px;
     background-color: black;
     text-align: center;
-    background-image:url("gh.jpg");
+    background-image:url("images/gh.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
