@@ -30,9 +30,10 @@ body {
     display: block;
     width: 100%;
 }
+
 #intro_content h2 {
     font-size: 75px;
-    color: orange;;
+    color: orange;
 }
 
 h1 {
@@ -141,6 +142,14 @@ h4:hover {
 .box:hover {
   font-size: 40px;
 }
+
+.box:hover h2.viewGH:after  {
+  content: "View On GitHub";
+}
+.box:hover h2.viewGH span {
+  display: none;
+}
+
 
 .box:hover .bg {
   opacity: 0.7;

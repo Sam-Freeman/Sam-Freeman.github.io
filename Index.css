@@ -42,13 +42,13 @@ body {
 }
 
 .overlay {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.5);
     height: 100%;
     width: 100%;
 }
 
 h1 {
-    font-family: 'Bungee Shade', cursive;
+    font-family:'Permanent Marker', 'Bungee Shade', cursive;
     font-weight: bolder;
     font-size: 50px;
 }
@@ -66,4 +66,11 @@ a {
 a:hover {
     font-size: 40px;
     text-decoration: underline;
+}
+
+.square {
+  background: rgba(255, 255, 255, 0.2);
+  width: 50vw;
+  margin: 0 auto;
+  border: solid 4px white;
 }
