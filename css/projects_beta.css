@@ -1,0 +1,137 @@
+html, body {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+body {
+  background-color: #FFFAFA;
+}
+
+#content-intro {
+    font-family: 'Ranga', cursive;
+    margin: 0;
+    min-height:100%;
+    padding: 0.5em 0;
+    width: 100%;
+    display:block;
+    background-color: #373737;
+    text-align: center;
+}
+
+#content-intro h2 {
+    font-size: 75px;
+    color: orange;
+}
+
+#content-intro h1 {
+    font-family: 'Yanone Kaffeesatz';
+    padding-top: 10%;
+    font-size: 100px;
+    color: white;
+}
+
+#content-intro a {
+    text-decoration: none;
+    color: orange;
+    font-size: 40px;
+    text-align: center;
+}
+#content-intro a:hover {
+    color: lightgrey;
+}
+
+.proj {
+    font-family: "Ranga";
+    font-size: 2vw;
+    text-align: center;
+    min-height:50%;
+    line-height:1;
+    position:relative;
+    box-shadow: 0 0 50px rgba(1,1,1,1);
+    z-index:2;
+    width: 100%;
+    display: flex;
+    background-color: #FFFAFA;
+}
+
+.bg {
+    min-height: 30%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 0.5em 0;
+    background-color: cornflowerblue;
+}
+
+.img-sm {
+    background-image: url(../images/sm.png);
+}
+
+.img-ftl {
+    background-image:url(../images/ftl.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-rw {
+    background-color: black;
+    background-image: url(../images/rw.png);
+}
+
+
+.side {
+    border: 5px solid white;
+    position:absolute;
+    align-items: stretch;
+    display: inline-block;
+    height: 100%;
+    float: left;
+    width: 75%;
+}
+
+.side.left {
+    text-align: left;
+    background-color: white;
+}
+
+.side.right {
+    -webkit-clip-path: polygon(0 0, 0 0, 100% 175%, 105% 0);
+    text-align: center;
+    background-position: center center;
+    left: 25%;
+    z-index: 5;
+}
+
+.text {
+    padding-left: 10%;
+    color: #373737;
+}
+
+.text.title {
+    margin-top: 10%;
+    font-family: 'Yanone Kaffeesatz';
+    text-decoration: underline;
+}
+
+.text.description {
+}
+
+.text.link {
+    line-height: 0;
+    color: orange;
+    font-family: 'Yanone Kaffeesatz';
+}
+
+#sm {
+    font-family: "Righteous";
+}
+
+#ftl {
+    font-family: "Amatic SC";
+}
+
+#rw {
+    font-family: "Gloria Hallelujah";
+}
