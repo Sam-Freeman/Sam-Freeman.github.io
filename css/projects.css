@@ -95,12 +95,12 @@ h4:hover {
   background-image: url("../images/sq.png");
 }
 
-._sm {
-  background: url("../images/sm.png") center center;
+._hrcc {
+  background: url("../images/hrcc.png") center center;
 }
 
-._d {
-  background: url("../images/d.jpg") center center;
+._sm {
+  background: url("../images/sm.png") center center;
 }
 
 ._ftl {
@@ -150,6 +150,12 @@ h4:hover {
   display: none;
 }
 
+.cover:hover h2.viewGH:after  {
+  content: "View On GitHub";
+}
+.cover:hover h2.viewGH span {
+  display: none;
+}
 
 .box:hover .bg {
   opacity: 0.7;
