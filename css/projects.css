@@ -146,8 +146,12 @@ h4:hover {
 .box:hover h2.viewGH:after  {
   content: "View On GitHub";
 }
-.box:hover h2.viewGH span {
+.box:hover h2 span {
   display: none;
+}
+
+.box:hover h2.view:after {
+    content: "View";
 }
 
 .cover:hover h2.viewGH:after  {
@@ -174,4 +178,10 @@ h4:hover {
 .right {
   float:right;
   margin-right: 2vw;
+}
+
+#moreProj {
+    font-family: 'Yanone Kaffeesatz';
+    color: white;
+    font-size: 30px;
 }
