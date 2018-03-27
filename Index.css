@@ -19,6 +19,7 @@ html, body {
 }
 
 body {
+    overflow-x: hidden;
     margin-top: 0px;
     margin-left: 0px;
     margin-bottom: 0px;
@@ -30,15 +31,15 @@ body {
     background-position: center;
 }
 
+.rotate {
+    transform: rotate(-45deg)
+}
+
 .container {
-    position: absolute;
-    margin: auto;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 20%;
-    height: 200px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(calc(-50% - 100px), calc(-50% - 100px));
 }
 
 .overlay {
