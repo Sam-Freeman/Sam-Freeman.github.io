@@ -1,6 +1,10 @@
 // This can be improved with the use of an array and index and delay - will do tomorrow
+let keepBouncing = true;
+
 $(document).ready(function(){
+    setInterval(bounce, 3000);
     $("#test").click(function () {
+        keepBouncing = false;
         $(this).toggleClass("rotate");
         $(this).animate({
             opacity: 0.0,
@@ -12,7 +16,7 @@ $(document).ready(function(){
                 $("#key-points").animate({
                     right:"+=31.25vw",
                 }, 1000, function(){
-                    $("#top-projects").fadeIn("slow")
+                    $("#top-projects").fadeIn("slow");
                     $("#top-projects").animate({
                         right:"-=31.25vw",
                     }, 1000, function(){
@@ -23,3 +27,10 @@ $(document).ready(function(){
         });
     });
 });
+
+function bounce() {
+    if (keepBouncing) {
+        console.log("Running");
+        $("#test").effect("bounce", {times: 3}, 2000).delay(1000);
+    }
+}
