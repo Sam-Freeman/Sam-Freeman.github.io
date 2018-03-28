@@ -75,6 +75,7 @@ a:hover {
     justify-content: center;
     overflow: auto;
     width: 100vw;
+    font-family: 'Comfortaa', cursive;
 }
 
 .display-box {
@@ -86,3 +87,19 @@ a:hover {
     position: absolute;
 }
 
+.display-box h4 {
+    text-decoration: underline;
+}
+
+ul {
+    list-style:none;
+    padding-left: 0;
+}
+
+#top-projects li {
+    margin-top: 15%;
+}
+
+#education-work li {
+    margin-top: 5%;
+}
