@@ -2,23 +2,33 @@
 <html lang="en">
     <head>
         <title>Samuel Freeman</title>
-        <link href="https://fonts.googleapis.com/css?family=Orbitron|Indie+Flower|Bungee+Shade|Yanone+Kaffeesatz|Permanent+Marker" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Comfortaa|Caveat" rel="stylesheet">
 
-        <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Orbitron|Indie+Flower|Bungee+Shade|Yanone+Kaffeesatz" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="js/animationTesting.js"></script>
+
         <link type="text/css" rel="stylesheet" href="Index.css">
         <link type="text/css" rel="stylesheet" href="css/blink.css">
-        <link rel="icon" href="../images/bg.png">
+        <link rel="icon" href="/images/bg.png">
     </head>
 
     <body>
         <div class="overlay">
+            <h1 hidden>Samuel Freeman</h1>
+            <h2 hidden>At a Glance</h2>
+
             <div class="container">
-              <div class="square">
-                <h1>Samuel Freeman</h1>
-                <h2><a href="html/projects.html">Projects</a> <div style="display: inline;" id="blink"> | </div><a href="html/aboutme.html"> Who am I?</a></h2>
-              </div>
+                <img id="test" src="Logo.png" class="logos" width="200" height="200" style="position: absolute"/>
             </div>
-            <div class="logo"></div>
+
+            <div id="subcontainer">
+                <div class="display-box" id="key-points" hidden></div>
+                <div class="display-box" id="top-projects" hidden></div>
+                <div class="display-box" id="education-work" hidden></div>
+                
+            </div>
+
+
         </div>
     </body>
 </html>
