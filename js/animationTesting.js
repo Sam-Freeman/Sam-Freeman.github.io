@@ -6,7 +6,7 @@ $(document).ready(function(){
             opacity: 0.0,
             top: "-=50vh",
         }, 1000, function() {
-            // $("#subcontainer").fadeIn();
+            $("h2").fadeIn("slow");
             $("h1").fadeIn("slow", function(){
                 $("#key-points").fadeIn("slow");
                 $("#key-points").animate({
@@ -14,13 +14,9 @@ $(document).ready(function(){
                 }, 1000, function(){
                     $("#top-projects").fadeIn("slow")
                     $("#top-projects").animate({
-                        right:"-=25vw",
+                        right:"-=31.25vw",
                     }, 1000, function(){
                         $("#education-work").fadeIn("slow");
-                        // $("#education-work").animate({
-                        //     right:"-=31.25.vw",
-                        //     opacity:0.2
-                        // }, 1000);
                     });
                 });
             });

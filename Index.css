@@ -56,7 +56,7 @@ h1 {
 }
 
 h2 {
-    font-size: 30px;
+    font-family: "Caveat", cursive;
 }
 
 a {
@@ -77,20 +77,6 @@ a:hover {
     width: 100vw;
 }
 
-.justified {
-    display: flex;
-    justify-content: center;
-}
-
-#top-projects {
-    margin-left: 6.25vw;
-    margin-right: 6.25vw;
-}
-
-.display-box-after {
-
-}
-
 .display-box {
     background: rgba(255, 255, 255, 0.2);
     border: solid 4px white;
@@ -98,8 +84,5 @@ a:hover {
     height: 50vh;
     margin-top: 5vh;
     position: absolute;
-    /*display: inline-block;*/
-    /*float: left;*/
-    /*margin: 0 auto;*/
 }
 
