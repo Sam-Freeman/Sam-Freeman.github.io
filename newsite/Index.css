@@ -3,7 +3,7 @@ html, body {
     width: 100%;
     font-family: 'Yanone Kaffeesatz';
     color: white;
-
+    /*background-color: #6D7993;*/
 }
 
 .logo {
@@ -13,22 +13,19 @@ html, body {
     height: 50px;
     width: 75px;
     background-size: cover;
-    background-image: url("images/bg.png");
+    background-image: url("../images/bg.png");
     border-radius: 10px;
     opacity: 0.3;
 }
 
 body {
     overflow-x: hidden;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-bottom: 0px;
-    background-color: black;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
     text-align: center;
-    background-image:url("bg.jpg");
-    background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background: black url("../bg.jpg") no-repeat center;
 }
 
 .rotate {
@@ -83,6 +80,7 @@ a:hover {
     height: 50vh;
     margin-top: 5vh;
     position: absolute;
+    border-radius: 1em;
 }
 
 .display-box h4 {
@@ -101,3 +99,24 @@ ul {
 #education-work li {
     margin-top: 5%;
 }
+
+#all-pages-container {
+    /*display: block;*/
+}
+
+.page-container {
+    vertical-align: top;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    color: #D5D5D5;
+    background-color: #9099A2;
+}
+
+.page-container h2 {
+    font-size: 1.75em;
+    margin-top: 0;
+    padding-top: 5vh;
+    font-family:'Comfortaa', 'Bungee Shade', cursive;
+}
+

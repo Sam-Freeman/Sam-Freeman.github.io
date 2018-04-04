@@ -14,13 +14,14 @@ $(document).ready(function(){
             $("h1").fadeIn("slow", function(){
                 $("#key-points").fadeIn("slow");
                 $("#key-points").animate({
-                    right:"+=31.25vw",
+                    right:"+=31.25%",
                 }, 1000, function(){
                     $("#top-projects").fadeIn("slow");
                     $("#top-projects").animate({
-                        right:"-=31.25vw",
+                        right:"-=31.25%",
                     }, 1000, function(){
                         $("#education-work").fadeIn("slow");
+                        $("#all-pages-container").fadeIn();
                     });
                 });
             });
