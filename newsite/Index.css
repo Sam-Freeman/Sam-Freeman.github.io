@@ -1,0 +1,122 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Yanone Kaffeesatz';
+    color: white;
+    /*background-color: #6D7993;*/
+}
+
+.logo {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    width: 75px;
+    background-size: cover;
+    background-image: url("../images/bg.png");
+    border-radius: 10px;
+    opacity: 0.3;
+}
+
+body {
+    overflow-x: hidden;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    text-align: center;
+    background-size: cover;
+    background: black url("../bg.jpg") no-repeat center;
+}
+
+.rotate {
+    transform: rotate(-45deg)
+}
+
+.container {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(calc(-50% - 100px), calc(-50% - 100px));
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    font-family:'Comfortaa', 'Bungee Shade', cursive;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: "Caveat", cursive;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+a:hover {
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+#subcontainer {
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+    width: 100vw;
+    font-family: 'Comfortaa', cursive;
+}
+
+.display-box {
+    background: rgba(255, 255, 255, 0.2);
+    border: solid 4px white;
+    width: 25vw;
+    height: 50vh;
+    margin-top: 5vh;
+    position: absolute;
+    border-radius: 1em;
+}
+
+.display-box h4 {
+    text-decoration: underline;
+}
+
+ul {
+    list-style:none;
+    padding-left: 0;
+}
+
+#top-projects li {
+    margin-top: 15%;
+}
+
+#education-work li {
+    margin-top: 5%;
+}
+
+#all-pages-container {
+    /*display: block;*/
+}
+
+.page-container {
+    vertical-align: top;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    color: #D5D5D5;
+    background-color: #9099A2;
+}
+
+.page-container h2 {
+    font-size: 1.75em;
+    margin-top: 0;
+    padding-top: 5vh;
+    font-family:'Comfortaa', 'Bungee Shade', cursive;
+}
+
