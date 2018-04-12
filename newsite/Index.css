@@ -80,7 +80,7 @@ a:hover {
     height: 50vh;
     margin-top: 5vh;
     position: absolute;
-    border-radius: 1em;
+    /*border-radius: 1em;*/
 }
 
 .display-box h4 {
