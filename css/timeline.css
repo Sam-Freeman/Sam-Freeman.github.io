@@ -1,0 +1,71 @@
+.circle-item-left {
+    width: 2em;
+    height: 2em;
+    background-color: #16181b;
+    margin-top: 25vh;
+    position: relative;
+}
+
+.circle-item-right {
+    width: 2em;
+    height: 2em;
+    margin-top: 25vh;
+    position: relative;
+}
+
+.other {
+    background: #F0E68C;
+}
+
+.education {
+    background: #F4A460;
+}
+
+.experience {
+    background: #BCD2EE;
+}
+
+#timeline-content {
+    width: 100%;
+}
+
+.vertical-line {
+    height: 300vh;
+    border-left: 8px rgb(22, 24, 27) solid;
+    position: absolute;
+    top: 100vh;
+}
+
+.details-box-left {
+    margin-top: 25vh;
+    margin-bottom: -25vh;
+    position: relative;
+    font-family: "Secular One", serif;
+    right: 25%;
+}
+.details-box-right {
+    margin-top: 25vh;
+    margin-bottom: -25vh;
+    position: relative;
+    font-family: "Secular One", serif;
+    left: 25%;
+}
+
+.header-name {
+    color: #000;
+    font-weight: bold;
+    font-size: 2vw;
+}
+
+.header-role {
+    color: rgb(0,0,0);
+    color: rgba(0,0,0,0.7);
+    font-size: 1.8vw;
+}
+
+.header-date {
+    margin-bottom: -25vh;
+    color: rgb(0,0,0);
+    color: rgba(0,0,0,0.4);
+    font-size: 1.3vw;
+}
