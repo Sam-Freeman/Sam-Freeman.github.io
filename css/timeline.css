@@ -27,10 +27,11 @@
 
 #timeline-content {
     width: 100%;
+    margin-bottom: 30vh;
 }
 
 .vertical-line {
-    height: 300vh;
+    height: 360vh;
     border-left: 8px rgb(22, 24, 27) solid;
     position: absolute;
     top: 100vh;
@@ -68,4 +69,15 @@
     color: rgb(0,0,0);
     color: rgba(0,0,0,0.4);
     font-size: 1.3vw;
+}
+
+.timeline-section-title-box {
+    margin-top: 15vh;
+    font-family: "Secular One", serif;
+    left: 25%;
+    position: relative;
+}
+
+.timeline-section-title-box h1 {
+    font-size: 3vw;
 }

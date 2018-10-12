@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-72591778-2"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-72591778-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-	  gtag('config', 'UA-72591778-2');
-	</script>
+        gtag('config', 'UA-72591778-2');
+    </script>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/timeline.css">
+    <link rel="stylesheet" href="css/projects.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Rock+Salt|Secular+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Secular+One" rel="stylesheet">
     <meta charset="UTF-8">
     <title>Samuel Freeman</title>
 </head>
 <body>
     <script>
         AOS.init({
-            duration: 1400,
+            duration: 1300,
         })
     </script>
     <div id="page-home-main" class="d-flex text-center justify-content-center">
@@ -32,9 +34,16 @@
             <h2>Developer | Student | Innovator</h2>
         </div>
     </div>
+    <!-- SECTION -- TIMELINE -->
     <div id="section-timeline" class="d-flex justify-content-center align-items-center align-content-center" >
         <div class="vertical-line" data-aos="fade-down"></div>
         <div id="timeline-content" class="d-flex flex-column align-items-center">
+
+            <div class="timeline-section-title-box" data-aos="fade-down">
+                <h1 class="header-name" style="text-decoration: underline;">Timeline</h1>
+                <h2 class="header-role">A Brief Overview</h2>
+            </div>
+
             <div class="details-box-left" data-aos="zoom-in">
                 <h1 class="header-name">Birth</h1>
                 <h1 class="header-date">December 1998</h1>
@@ -97,6 +106,112 @@
             <div class="circle-item-left rounded-circle experience" data-aos="fade-right" style=""></div>
         </div>
     </div>
+    <!--END SECTION-->
+
+    <!--SECTION -- KEY PERSONAL PROJECTS-->
+    <div id="section-projects">
+        <div class="project-section-title-box" data-aos="fade-down">
+            <h1 class="header-name" style="text-decoration: underline;">Projects</h1>
+            <h2 class="header-role">My Favourite Projects</h2>
+        </div>
+        <div class="project-item row align-items-center">
+                <div class="left-content description col-sm"  data-aos="fade-right">
+                    <div class="text-container" data-aos="fade-down">
+                        <h1 class="project-title">meadow</h1>
+                        <h2 class="project-subtitle">A form field package for Flutter</h2>
+                        <h2 class="project-language">Dart</h2>
+                        <p class="project-text"><br>A selection of easy to use form field widgets for Flutter forms:</p>
+                        <div class="row justify-content-center">
+                            <ul class="project-text col-sm-3">
+                                <li>Row of Buttons</li>
+                                <li>Date Picker</li>
+                                <li>Drop Down List</li>
+                            </ul>
+                            <ul class="project-text col-sm-3">
+                                <li>Row of Radio Buttons</li>
+                                <li>Switch</li>
+                                <li>Checkbox</li>
+                            </ul>
+                        </div>
+                        <p class="project-text"><br>Check out the <a href="https://github.com/Sam-Freeman/Meadow">github repo</a> or the <a href="https://pub.dartlang.org/packages/meadow#-readme-tab-">package page.</a></p>
+
+                </div>
+            </div>
+
+            <div class="image-info image-right col-sm-4" data-aos="fade-left">
+                <img src="images/meadow.gif" />
+            </div>
+        </div>
+    </div>
+
+
+    <div class="project-item row align-items-center">
+
+        <div class="image-info image-left col-sm-4" data-aos="fade-right">
+            <img src="images/sm.png" />
+        </div>
+
+        <div class="right-content description col-sm"  data-aos="fade-left">
+            <div class="text-container" data-aos="fade-down">
+                <h1 class="project-title">Shape Master</h1>
+                <h2 class="project-subtitle">Stay-alive game</h2>
+                <h2 class="project-language">Java</h2>
+                <p class="project-text"><br>A game that I designed and built over two days for Ludum Dare 35:</p>
+
+                <p class="project-text"><br>Check out the <a href="https://github.com/Sam-Freeman/ShapeMaster">github repo</a></p>
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <div class="project-item row align-items-center">
+        <div class="left-content description col-sm"  data-aos="fade-right">
+            <div class="text-container" data-aos="fade-down">
+                <h1 class="project-title">Upside Down</h1>
+                <h2 class="project-subtitle">Multi-level Platformer</h2>
+                <h2 class="project-language">Python</h2>
+                <p class="project-text"><br>Built in a team of 5 as a coursework project - received a grade of 96%<br>
+                Aim of the game is to progress through each platforming level <br>and defeat the "good" guy in a boss battle at the end of each stage</p>
+
+                <p class="project-text"><br>Check out the <a href="https://github.com/domlobo/CS1830-Games-Lab">github repo</a></p>
+
+            </div>
+        </div>
+
+        <div class="image-info image-right col-sm-4" data-aos="fade-left">
+            <img src="images/ud.png" />
+        </div>
+    </div>
+
+
+
+
+    <div class="project-item row align-items-center">
+
+        <div class="image-info image-left col-sm-4" data-aos="fade-right">
+            <img src="images/ps.PNG" />
+        </div>
+
+        <div class="right-content description col-sm"  data-aos="fade-left">
+            <div class="text-container" data-aos="fade-down">
+                <h1 class="project-title">samfreeman.xyz</h1>
+                <h2 class="project-subtitle">This Website</h2>
+                <h2 class="project-language">HTML5, CSS3</h2>
+                <p class="project-text"><br>My portfolio website</p>
+
+                <p class="project-text"><br>Check out the <a href="https://github.com/Sam-Freeman/sam-freeman.github.io">github repo</a></p>
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <!--END SECTION-->
+
 </body>
 </html>
-
