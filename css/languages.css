@@ -1,0 +1,35 @@
+#section-languages {
+    margin-top: 10vh;
+    text-align: center;
+    font-family: "Secular One", serif;
+}
+
+.language-row h1 {
+    font-size: 1.4vw;
+}
+
+.language-row {
+    margin-top: 10vh;
+    border-bottom: 1px solid rgba(0,0,0,0.4);
+}
+
+.empty {
+    color: rgb(255,255,255);
+    color: rgba(0,0,0,0.4);
+}
+
+.fa-star {
+    width: 5vw;
+    height: 5vw;
+}
+
+.languages-section-title-box {
+    font-family: "Secular One", serif;
+    right: 15%;
+    /*float:right;*/
+    position: relative;
+}
+
+.languages-section-title-box h1 {
+    font-size: 3vw;
+}

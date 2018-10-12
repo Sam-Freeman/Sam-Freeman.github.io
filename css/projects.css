@@ -8,7 +8,7 @@
 }
 
 .project-item {
-    margin: 5vh 0;
+    margin: 20vh 0;
 }
 
 .right-content {
@@ -80,12 +80,11 @@
 }
 
 .text-container {
-    /*border: red dashed 1px;*/
     padding: 5vh 0;
 }
 
 .project-section-title-box {
-    /*margin-top: 5vh;*/
+    text-align: center;
     font-family: "Secular One", serif;
     left: 15%;
     position: relative;

@@ -1,0 +1,35 @@
+#section-contact-me {
+    margin-top: 10vh;
+    text-align: center;
+}
+
+.contact-section-title-box {
+    font-family: "Secular One", serif;
+    left: 15%;
+    float:left;
+    position: relative;
+    margin-bottom: 5vh;
+}
+
+.contact-section-title-box h1 {
+    font-size: 3vw;
+}
+
+.container-contact {
+    width: 100%;
+    background: #16181b;
+    color: whitesmoke;
+    padding-bottom: 10vh;
+}
+
+.container-contact a {
+    color: whitesmoke;
+}
+
+.container-contact h3 {
+    font-size: 1.5vw;
+}
+
+#contact-row {
+    padding: 10vh 0;
+}
