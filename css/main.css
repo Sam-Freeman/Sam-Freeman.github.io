@@ -10,8 +10,8 @@ html {
 }
 
 #page-home-main {
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     color: whitesmoke;
     background-color: #16181b;
     text-align: center;
@@ -27,6 +27,6 @@ html {
 }
 
 #section-timeline {
-    width: 100%;
+    width: 100vw;
     background: whitesmoke;
 }
